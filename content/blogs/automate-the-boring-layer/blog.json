@@ -1,0 +1,15 @@
+{
+  "title": "Automate the Boring Layer",
+  "date": "2026-08-18",
+  "description": "A practical architecture for content folders, generated indexes, validation, cache discipline, and GitHub Pages deployment.",
+  "technologies": [
+    "JavaScript",
+    "GitHub Actions",
+    "SEO"
+  ],
+  "tags": [
+    "thinking",
+    "web-development"
+  ],
+  "status": "published"
+}

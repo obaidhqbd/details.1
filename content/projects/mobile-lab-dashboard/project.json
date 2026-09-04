@@ -1,0 +1,17 @@
+{
+  "title": "Mobile Lab Dashboard",
+  "date": "2026-08-12",
+  "description": "A mobile-first dashboard concept for tracking experiments, lightweight metrics, and web-system health without a heavyweight app shell.",
+  "technologies": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "tags": [
+    "mobile-first",
+    "dashboard"
+  ],
+  "featured": false,
+  "category": "Web System",
+  "status": "published"
+}

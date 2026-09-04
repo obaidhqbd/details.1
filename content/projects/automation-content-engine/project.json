@@ -1,0 +1,18 @@
+{
+  "title": "Automation Content Engine",
+  "date": "2026-09-04",
+  "description": "A static publishing pipeline that turns content folders into indexed project and blog pages with validation, fallbacks, search data, and GitHub Actions deployment.",
+  "technologies": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "GitHub Actions"
+  ],
+  "tags": [
+    "featured",
+    "automation"
+  ],
+  "featured": true,
+  "category": "Web System",
+  "status": "published"
+}

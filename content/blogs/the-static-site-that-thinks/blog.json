@@ -1,0 +1,15 @@
+{
+  "title": "The Static Site That Thinks",
+  "date": "2026-09-04",
+  "description": "How build-time discovery, local intelligence, and graceful fallbacks can make a static website feel like a small application.",
+  "technologies": [
+    "JavaScript",
+    "GitHub Actions",
+    "SEO"
+  ],
+  "tags": [
+    "thinking",
+    "web-development"
+  ],
+  "status": "published"
+}

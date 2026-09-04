@@ -1,0 +1,17 @@
+{
+  "title": "Signal Interface",
+  "date": "2026-08-27",
+  "description": "An experimental interface where ambient motion, visitor lenses, micro-events, and a command center turn a simple portfolio into an interactive system.",
+  "technologies": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "tags": [
+    "interactive",
+    "ui"
+  ],
+  "featured": false,
+  "category": "Web System",
+  "status": "published"
+}
