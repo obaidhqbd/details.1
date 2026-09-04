@@ -1,0 +1,7 @@
+{
+  "name": "obaidul-portfolio-x",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "build": "node scripts/build-content.mjs" }
+}

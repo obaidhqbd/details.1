@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#05070c">
+  <meta name="description" content="{{DESCRIPTION}}">
+  <link rel="canonical" href="{{CANONICAL}}">
+  <link rel="icon" href="{{BASE}}/assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="{{BASE}}/manifest.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{NAME}} · {{ROLE}}">
+  <meta property="og:description" content="{{DESCRIPTION}}">
+  <meta property="og:url" content="{{CANONICAL}}">
+  <meta property="og:image" content="{{BASE}}{{HERO_IMAGE}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{NAME}} · {{ROLE}}">
+  <meta name="twitter:description" content="{{DESCRIPTION}}">
+  <meta name="twitter:image" content="{{BASE}}{{HERO_IMAGE}}">
+  <title>{{NAME}} · {{ROLE}}</title>
+  <link rel="stylesheet" href="{{BASE}}/assets/css/site.css">
+  <script type="application/ld+json">{{JSONLD}}</script>
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="grid-glow" aria-hidden="true"></div>
+  <div class="cursor-beam" aria-hidden="true"></div>
+
+  <header class="topbar" id="top">
+    <div class="shell topbar-inner">
+      <a class="brand" href="{{BASE}}/" aria-label="{{NAME}} home">
+        <span class="brand-mark" aria-hidden="true"><span>O</span></span>
+        <span class="brand-word">OBAIDUL<span>.</span></span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#work">Work</a>
+        <a href="#writing">Writing</a>
+        <a href="#mind">Mind</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="command-trigger" type="button" data-open-command aria-label="Open command center">
+        <span class="command-key">⌘</span><span>K</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero shell">
+      <div class="hero-copy reveal">
+        <div class="live-pill"><span class="live-pulse"></span> DIGITAL LAB / BUILDING IN PUBLIC</div>
+        <p class="kicker">{{ROLE}} · {{SECONDARY_ROLE}}</p>
+        <h1>Not a portfolio.<br><em>A living system.</em></h1>
+        <p class="hero-lead">{{TAGLINE}}</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#work">Enter the lab <span>↘</span></a>
+          <button class="btn btn-ghost" type="button" data-open-command>Open command center <kbd>⌘ K</kbd></button>
+          <button class="btn btn-ai" type="button" data-open-command data-ai-entry>Ask Obaidul AI <span>✦</span></button>
+        </div>
+        <div class="hero-meta">
+          <div><span>FOCUS</span><strong>Web systems</strong></div>
+          <div><span>MODE</span><strong>Build + teach</strong></div>
+          <div><span>HOME</span><strong>GitHub Pages</strong></div>
+        </div>
+      </div>
+
+      <div class="hero-stage reveal" aria-label="Interactive personal identity module">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="orbit orbit-c"></div>
+        <div class="stage-grid"></div>
+        <div class="portrait-frame" data-tilt>
+          <div class="portrait-corner corner-a"></div><div class="portrait-corner corner-b"></div>
+          <img src="{{BASE}}{{HERO_IMAGE}}" alt="Professional portrait of {{NAME}}" width="2048" height="2048" fetchpriority="high" decoding="async">
+          <div class="portrait-overlay"></div>
+          <div class="portrait-topline">OBAIDUL / 001</div>
+          <div class="portrait-bottomline"><span>IDENTITY ONLINE</span><span>01</span></div>
+        </div>
+        <div class="system-dial">
+          <span class="dial-label">SYSTEM STATUS</span>
+          <strong>READY</strong>
+          <span class="dial-foot">content engine / online</span>
+        </div>
+        <div class="floating-note note-a"><span>01</span> THINK DIFFERENTLY</div>
+        <div class="floating-note note-b"><span>02</span> SHIP SIMPLY</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Capabilities">
+      <div class="ticker-track">
+        <span>BUILD SYSTEMS</span><i>✦</i><span>TEACH CLEARLY</span><i>✦</i><span>QUESTION DEFAULTS</span><i>✦</i><span>OPTIMIZE EVERYTHING</span><i>✦</i><span>BUILD SYSTEMS</span><i>✦</i><span>TEACH CLEARLY</span><i>✦</i>
+      </div>
+    </section>
+
+    <section class="section shell" id="work">
+      <div class="section-top reveal">
+        <div><p class="index-label">01 / BUILD LOG</p><h2>Projects with a pulse.</h2><p class="section-sub">The newest experiments surface first. Every project is a tiny case study in decisions, constraints, and craft.</p></div>
+        <a class="section-link" href="{{BASE}}/projects/">All projects ↗</a>
+      </div>
+      <div class="mode-switch" role="tablist" aria-label="Work perspective">
+        <button class="mode-chip is-active" type="button" data-mode="all" role="tab" aria-selected="true">All</button>
+        <button class="mode-chip" type="button" data-mode="featured" role="tab" aria-selected="false">Featured</button>
+        <button class="mode-chip" type="button" data-mode="recent" role="tab" aria-selected="false">Recently updated</button>
+      </div>
+      <div class="project-orbit-layout">
+        <div class="project-grid" data-project-grid>
+          {{PROJECT_GRID}}
+        </div>
+        <aside class="work-console reveal">
+          <div class="console-head"><span>WORK CONSOLE</span><span class="console-led"></span></div>
+          <div class="console-big"><span data-count-projects>{{PROJECT_COUNT}}</span><small>projects indexed</small></div>
+          <div class="console-line"><span>Latest build</span><strong data-latest-project>{{LATEST_PROJECT}}</strong></div>
+          <div class="console-line"><span>Content mode</span><strong>auto-discovered</strong></div>
+          <div class="console-line"><span>Publishing</span><strong>GitHub Actions</strong></div>
+          <div class="console-terminal"><span>></span><span data-terminal-text>scan complete</span><b></b></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section shell" id="writing">
+      <div class="section-top reveal">
+        <div><p class="index-label">02 / FIELD NOTES</p><h2>Ideas that survived the tab.</h2><p class="section-sub">Technical writing, experiments, lessons, and the occasional carefully reasoned detour.</p></div>
+        <a class="section-link" href="{{BASE}}/blogs/">All writing ↗</a>
+      </div>
+      <div class="writing-layout">
+        <div class="blog-list" data-blog-grid>{{BLOG_GRID}}</div>
+        <div class="idea-core reveal" data-tilt>
+          <div class="core-ring ring-1"></div><div class="core-ring ring-2"></div><div class="core-ring ring-3"></div>
+          <div class="core-inner"><span>THINK</span><strong>BUILD</strong><span>REPEAT</span></div>
+          <div class="core-caption"><span>IDEA CORE</span><span>LIVE</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="mind">
+      <div class="section-top reveal">
+        <div><p class="index-label">03 / MIND MAP</p><h2>How I think before I code.</h2><p class="section-sub">A developer is not a tag list. This is the part that usually gets buried under “skills”. It should not.</p></div>
+      </div>
+      <div class="mind-grid">
+        <article class="mind-card mind-primary reveal"><span class="mind-number">01</span><p>Start with the friction.</p><h3>Find the real problem.</h3><span class="mind-line"></span><small>Before choosing a framework, reduce the problem until the useful part becomes obvious.</small></article>
+        <article class="mind-card reveal"><span class="mind-number">02</span><p>Make complexity pay rent.</p><h3>Prefer simple systems.</h3><span class="mind-line"></span><small>Fewer dependencies. Fewer moving parts. More control. Humans already have enough configuration screens.</small></article>
+        <article class="mind-card reveal"><span class="mind-number">03</span><p>Build for tomorrow.</p><h3>Automate repetition.</h3><span class="mind-line"></span><small>Content pipelines, validation, cache discipline, and graceful fallbacks belong in the architecture.</small></article>
+      </div>
+      <div class="thought-lab reveal">
+        <div class="thought-label">THOUGHT LAB / LIVE</div>
+        <div class="thought-quote" data-thought>“A good interface hides complexity without hiding intent.”</div>
+        <button class="thought-next" type="button" data-new-thought>Generate another thought ↗</button>
+      </div>
+    </section>
+
+    <section class="section shell" id="about-system">
+      <div class="system-card reveal">
+        <div class="system-copy"><p class="index-label">04 / THE DIFFERENCE</p><h2>Visitors choose the lens.</h2><p>Instead of forcing everyone through the same linear portfolio, the site can reorganize itself around why someone arrived.</p></div>
+        <div class="lens-grid" role="tablist" aria-label="Visitor lens">
+          <button class="lens is-active" type="button" data-lens="explore"><span>EXPLORE</span><small>show the newest work</small></button>
+          <button class="lens" type="button" data-lens="hire"><span>COLLABORATE</span><small>surface capability + proof</small></button>
+          <button class="lens" type="button" data-lens="learn"><span>LEARN</span><small>prioritize writing + thinking</small></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell" id="contact">
+      <div class="contact-card reveal">
+        <div><p class="index-label">05 / OPEN CHANNEL</p><h2>Let’s make something useful.</h2><p>No ceremonial contact forms. One clear path in, one clear path out.</p></div>
+        <div class="contact-actions">{{CONTACT_LINKS}}</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer shell">
+    <div><a class="brand footer-brand" href="{{BASE}}/"><span class="brand-mark"><span>O</span></span><span class="brand-word">OBAIDUL<span>.</span></span></a><p>Mohammed Obaidul Hoque · {{SECONDARY_ROLE}}</p></div>
+    <div class="footer-right"><span>© {{YEAR}} · built as a system, not a brochure.</span><a href="#top">Back to top ↑</a></div>
+  </footer>
+
+  <div class="command-layer" id="command-layer" aria-hidden="true">
+    <div class="command-backdrop" data-close-command></div>
+    <div class="command-panel" role="dialog" aria-modal="true" aria-labelledby="command-title">
+      <div class="command-head"><div><p class="index-label">OB/AI · COMMAND CENTER</p><h2 id="command-title">Ask the system.</h2></div><button class="close-btn" type="button" data-close-command>Esc</button></div>
+      <label class="command-input"><span>✦</span><input id="command-input" type="search" autocomplete="off" placeholder="Ask about projects, writing, skills, or thinking…"></label>
+      <div class="command-suggestions" data-command-suggestions>
+        <button type="button" data-cmd="work">Show latest projects</button>
+        <button type="button" data-cmd="writing">Show latest writing</button>
+        <button type="button" data-cmd="mind">How does Obaidul think?</button>
+        <button type="button" data-cmd="contact">Open contact</button>
+        <button type="button" data-question="What does Obaidul build?">What does Obaidul build?</button>
+        <button type="button" data-question="How does Obaidul think?">How does Obaidul think?</button>
+      </div>
+      <div class="assistant-answer" id="assistant-answer" hidden></div>
+      <div class="command-results" id="command-results"></div>
+      <div class="command-foot"><span>↑↓ navigate</span><span>↵ open</span><span>esc close</span></div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script>window.__PORTFOLIO__ = {{FRONTEND_DATA}};</script>
+  <script src="{{BASE}}/assets/js/site.js" defer></script>
+</body>
+</html>

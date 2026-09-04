@@ -1,0 +1,9 @@
+{
+  "name": "Obaidul · Digital Lab",
+  "short_name": "Obaidul",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#05070c",
+  "theme_color": "#05070c",
+  "icons": [{"src":"assets/icons/icon.svg","sizes":"any","type":"image/svg+xml"}]
+}

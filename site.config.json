@@ -1,0 +1,24 @@
+{
+  "name": "Mohammed Obaidul Hoque",
+  "shortName": "Obaidul",
+  "role": "Full Stack Web Developer",
+  "secondaryRole": "Web Development Mentor",
+  "tagline": "I build useful systems, teach what I learn, and question what everyone else takes for granted.",
+  "description": "Mohammed Obaidul Hoque is a full stack web developer and web development mentor building practical digital systems, experimental interfaces, and technical writing.",
+  "siteUrl": "",
+  "language": "en",
+  "locale": "en_US",
+  "github": "https://github.com/obaidhqbd",
+  "email": "",
+  "resume": "",
+  "aiEndpoint": "",
+  "social": {
+    "linkedin": "",
+    "facebook": "",
+    "instagram": "",
+    "x": "",
+    "youtube": ""
+  },
+  "heroImage": "/assets/images/mentor.webp",
+  "theme": "obsidian-cyan"
+}
